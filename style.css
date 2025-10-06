@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegação Superior */
+
+header nav ul {
+    list-style: none;
+    background-color: #e0e0ff;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #0000cc;
+    font-size: 14px;
+}
+
+/* undernav */
+
+.undernav {
+    margin-top: 10px;
+    font-size: 13px;
+    float: right;
+}
+
+.undernav a {
+    text-decoration: none;
+    color: #0000cc;
+}
+
+/* Logo + Busca */
+
+main {
+    text-align: center;
+}
+
+.main img {
+    width: 200px;
+    padding: 40px 0 10px;
+    margin: 20px 0 10px;
+}
+
+.main p {
+    margin: 5px 0 10px;
+    font-size: 14px;
+    color: #444;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 400px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+input[type="text"],button {
+    display: block;
+    margin: 10px auto; /* centraliza e dá espaço */
+}
+
+/* rodapé */
+
+footer {
+    margin-top: 170px;
+    font-size: 13px;
+    color: #666;
+}
+
+footer a {
+    color: #0000cc;
+    text-decoration: none;
+}
