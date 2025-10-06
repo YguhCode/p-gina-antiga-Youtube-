@@ -1,4 +1,4 @@
-# p-gina-antiga-Youtube-
+# Página-antiga-Youtube-
  Página clone da versão antiga do Youtube
 
 # 📺 Clone da Página Antiga do YouTube
@@ -21,7 +21,6 @@ Foi desenvolvido como exercício de prática em web design, focando em layout, p
 
 - HTML5
 - CSS3
-- Git & GitHub
 - Editor: [VS Code](https://code.visualstudio.com/)
 
 ---
